@@ -33,6 +33,17 @@ header a:hover {
     font-size: 70px;
 }
 
+.recipeslist a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.recipeslist a:hover {
+    color: #A9A9A9;
+    font-weight: bolder;
+}
+
 .recipeslist {
     list-style-type: none;
 }
