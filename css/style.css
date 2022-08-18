@@ -1,0 +1,82 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 50;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header {
+    background: #fceabb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+}
+
+header a {
+    color:#FFFFFF;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color:#FFFFFF;
+    font-size: 70px;
+}
+
+
+
+.recipeslist {
+    list-style-type: none;
+}
+
+.bodyrecipes {
+    text-align: center;
+}
+
+.bodyrecipes div {
+    margin: auto;
+    height: 600px;
+    width: 600px;
+}
+
+.bodyrecipes div img {
+    height: 100%;
+    width: 100%;
+}
+
+.bodyrecipes section {
+    margin: 50px auto;
+    width: 45%;
+    text-align: left;
+}
+
+.bodyrecipes section p {
+    margin: 10px auto;
+}
+
+.bodyrecipes section h2 {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.bodyrecipes section ul {
+    list-style-position: inside;
+    margin: 10px auto;
+    padding: 0;
+}
+
+.bodyrecipes section ol {
+    list-style-position: inside;
+    margin: 10px auto;
+    padding: 0;
+}
+
